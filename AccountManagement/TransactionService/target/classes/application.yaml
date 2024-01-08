@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: local
+---
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:h2:mem:db_bank
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
+
+app:
+  transactionurl: http://localhost:8080/account/v1/updateaccount
+
