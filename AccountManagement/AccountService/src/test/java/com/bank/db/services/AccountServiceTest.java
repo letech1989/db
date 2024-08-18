@@ -6,7 +6,7 @@ import com.bank.db.models.Account;
 import com.bank.db.repositories.AccountRepository;
 import com.bank.db.utils.AccountInput;
 import com.bank.db.utils.CodeGenerator;
-import javafx.beans.binding.When;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
