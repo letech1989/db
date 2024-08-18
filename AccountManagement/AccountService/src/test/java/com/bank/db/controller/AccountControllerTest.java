@@ -10,7 +10,7 @@ import com.bank.db.utils.AccountInput;
 import com.bank.db.utils.CodeGenerator;
 import com.bank.db.utils.CreateAccountInput;
 import com.bank.db.utils.InputValidator;
-import javafx.application.Application;
+
 import javafx.beans.binding.When;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
